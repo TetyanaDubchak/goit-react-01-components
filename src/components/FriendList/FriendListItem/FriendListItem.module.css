@@ -1,0 +1,31 @@
+
+.item{
+        display: flex;
+        align-items: center;
+        max-height: 120px;
+        gap: 30px;
+        padding: 10px 20px;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        background: white;
+}
+
+.avatar{
+    width: 60px;
+    height: 60px;
+}
+
+.status{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.isOnline{
+ background-color: green;
+}
+
+.isOfline{
+    background-color: red;
+}

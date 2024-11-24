@@ -1,6 +1,10 @@
 .profile{
-    min-width: 320px;
-    padding-top:  20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 500px;
+    padding-top: 25px;
+    border-radius: 15px;
+    background: white;
     box-shadow: 2px 2px 29px 4px rgba(0, 0, 0, 0.75);
         -webkit-box-shadow: 2px 2px 29px 4px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 2px 2px 29px 4px rgba(0, 0, 0, 0.75);
@@ -12,53 +16,64 @@
 }
 
 .avatar{
-    max-width: 100px;
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    max-width: 200px;
    
 }
 
 .name{
-    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0;
     font-weight: bold;
     
 }
 
 .tag {
-    font-size: 16px;
-    color: grey;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: gray;
 }
 
 .location{
-    font-size: 18px;
-    color: grey;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: gray;
 }
 
 .stats{
-display: flex;
-padding: 0;
+    display: flex;
+    padding-top: 2px;
+    gap: 2px;
+    background: rgb(192, 192, 192);
 
 }
 
 .stats>li {
-    list-style-type: none;
-    background-color: rgb(223, 219, 219);
-    display: flex;
-    gap: 5px;
-    flex-direction: column;
-    min-width: calc(100%  / 3 );
-    padding: 10px 0;
-    border-color: rgb(59, 55, 55);
-    border: 1px solid;
+    width: calc(100% / 3);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
 }
 
 .label{
-    font-size: 16px;
-    color: grey;
-    align-self: center;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: rgb(105, 105, 105);
 
 }
 
 .quantity{
-    font-size: 18px;
+    display: block;
+    font-size: 36px;
     font-weight: bold;
-    align-self: center;
 }
